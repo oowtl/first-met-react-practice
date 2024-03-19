@@ -4,17 +4,28 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import Library from "./chapter_03/Library";
+// import Library from "./chapter_03/Library";
+import Clock from "./chapter_04/Clock";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    {/* <App /> */}
+// root.render(
+//   <React.StrictMode>
+//     {/* <App /> */}
 
-    {/* chapter 03 */}
-    <Library />
-  </React.StrictMode>
-);
+//     {/* chapter 03 */}
+//     {/* <Library /> */}
+//   </React.StrictMode>
+// );
+
+// chapter 04
+// TODO : index 보다 더 좁은 범위에서 setInterval 실행시키기
+setInterval(() => {
+  root.render(
+    <React.StrictMode>
+      <Clock />
+    </React.StrictMode>
+  );
+}, 1000);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
