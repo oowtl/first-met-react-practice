@@ -7,7 +7,9 @@ import reportWebVitals from "./reportWebVitals";
 // import Library from "./chapter_03/Library";
 // import Clock from "./chapter_04/Clock";
 // import CommentList from "./chapter_05/CommentList";
-import NotificationList from "./chapter_06/NotificationList";
+// import NotificationList from "./chapter_06/NotificationList";
+import ConfirmButton from "./chapter_08/ConfirmButton";
+import ConfirmButtonFC from "./chapter_08/ConfirmButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -36,9 +38,19 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // );
 
 // chapter 06
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>
+// );
+
+// chapter 07
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <>
+      <ConfirmButton />
+      <ConfirmButtonFC />
+    </>
   </React.StrictMode>
 );
 
