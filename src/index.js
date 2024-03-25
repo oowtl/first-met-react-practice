@@ -8,9 +8,10 @@ import reportWebVitals from "./reportWebVitals";
 // import Clock from "./chapter_04/Clock";
 // import CommentList from "./chapter_05/CommentList";
 // import NotificationList from "./chapter_06/NotificationList";
+import TestUseState from "./chapter_07/experiment/TestUseState";
 // import ConfirmButton from "./chapter_08/ConfirmButton";
 // import ConfirmButtonFC from "./chapter_08/ConfirmButton";
-import LandingPage from "./chapter_09/LandingPage";
+// import LandingPage from "./chapter_09/LandingPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -43,7 +44,14 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //   <React.StrictMode>
 //     <NotificationList />
 //   </React.StrictMode>
-// );
+// );\
+
+// chapter 07 : React hooks
+root.render(
+  <React.StrictMode>
+    <TestUseState />
+  </React.StrictMode>
+);
 
 // chapter 08
 // root.render(
@@ -56,11 +64,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // );
 
 // chapter 09
-root.render(
-  <React.StrictMode>
-    <LandingPage />
-  </React.StrictMode>
-);
+// root.render(
+//   <React.StrictMode>
+//     <LandingPage />
+//   </React.StrictMode>
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
