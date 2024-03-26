@@ -8,7 +8,8 @@ import reportWebVitals from "./reportWebVitals";
 // import Clock from "./chapter_04/Clock";
 // import CommentList from "./chapter_05/CommentList";
 // import NotificationList from "./chapter_06/NotificationList";
-import TestUseState from "./chapter_07/experiment/TestUseState";
+// import TestUseState from "./chapter_07/experiment/TestUseState";
+import TestClosure from "./chapter_07/experiment/TestClosure";
 // import ConfirmButton from "./chapter_08/ConfirmButton";
 // import ConfirmButtonFC from "./chapter_08/ConfirmButton";
 // import LandingPage from "./chapter_09/LandingPage";
@@ -47,9 +48,17 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // );\
 
 // chapter 07 : React hooks
+// TEST useState
+// root.render(
+//   <React.StrictMode>
+//     <TestUseState />
+//   </React.StrictMode>
+// );
+
+// TEST closure
 root.render(
   <React.StrictMode>
-    <TestUseState />
+    <TestClosure />
   </React.StrictMode>
 );
 
