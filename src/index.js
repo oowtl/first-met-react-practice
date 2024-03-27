@@ -11,7 +11,8 @@ import reportWebVitals from "./reportWebVitals";
 // import TestUseState from "./chapter_07/experiment/TestUseState";
 // import TestClosure from "./chapter_07/experiment/TestClosure";
 // import TestContext from "./chapter_07/experiment/context/TestContext";
-import TestPropsDrilling from "./chapter_07/experiment/context/ComparePropsDrilling";
+// import TestPropsDrilling from "./chapter_07/experiment/context/ComparePropsDrilling";
+import TestImperativeHandle from "./chapter_07/experiment/ref/TestImperativeHandle";
 // import ConfirmButton from "./chapter_08/ConfirmButton";
 // import ConfirmButtonFC from "./chapter_08/ConfirmButton";
 // import LandingPage from "./chapter_09/LandingPage";
@@ -72,9 +73,16 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // );
 
 // TEST propsDrilling
+// root.render(
+//   <React.StrictMode>
+//     <TestPropsDrilling />
+//   </React.StrictMode>
+// );
+
+// TEST TestImperativeHandle
 root.render(
   <React.StrictMode>
-    <TestPropsDrilling />
+    <TestImperativeHandle />
   </React.StrictMode>
 );
 
