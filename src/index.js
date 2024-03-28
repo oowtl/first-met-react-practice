@@ -13,7 +13,8 @@ import reportWebVitals from "./reportWebVitals";
 // import TestContext from "./chapter_07/experiment/context/TestContext";
 // import TestPropsDrilling from "./chapter_07/experiment/context/ComparePropsDrilling";
 // import TestImperativeHandle from "./chapter_07/experiment/ref/TestImperativeHandle";
-import TestUseMemo from "./chapter_07/experiment/memo/TestMemoization";
+// import TestUseMemo from "./chapter_07/experiment/memo/TestMemoization";
+import Accommodate from "./chapter_07/Accommodate";
 // import ConfirmButton from "./chapter_08/ConfirmButton";
 // import ConfirmButtonFC from "./chapter_08/ConfirmButton";
 // import LandingPage from "./chapter_09/LandingPage";
@@ -88,9 +89,16 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // );
 
 //TEST TestUseMemo
+// root.render(
+//   <React.StrictMode>
+//     <TestUseMemo />
+//   </React.StrictMode>
+// );
+
+// chapter 07
 root.render(
   <React.StrictMode>
-    <TestUseMemo />
+    <Accommodate />
   </React.StrictMode>
 );
 
