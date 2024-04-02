@@ -14,10 +14,11 @@ import reportWebVitals from "./reportWebVitals";
 // import TestPropsDrilling from "./chapter_07/experiment/context/ComparePropsDrilling";
 // import TestImperativeHandle from "./chapter_07/experiment/ref/TestImperativeHandle";
 // import TestUseMemo from "./chapter_07/experiment/memo/TestMemoization";
-import Accommodate from "./chapter_07/Accommodate";
+// import Accommodate from "./chapter_07/Accommodate";
 // import ConfirmButton from "./chapter_08/ConfirmButton";
 // import ConfirmButtonFC from "./chapter_08/ConfirmButton";
 // import LandingPage from "./chapter_09/LandingPage";
+import CouterStore from "./chapter_14/experiment/CouterStore";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -96,11 +97,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // );
 
 // chapter 07
-root.render(
-  <React.StrictMode>
-    <Accommodate />
-  </React.StrictMode>
-);
+// root.render(
+//   <React.StrictMode>
+//     <Accommodate />
+//   </React.StrictMode>
+// );
 
 // chapter 08
 // root.render(
@@ -118,6 +119,15 @@ root.render(
 //     <LandingPage />
 //   </React.StrictMode>
 // );
+
+// chapter 14
+
+// TEST STORE
+root.render(
+  <React.StrictMode>
+    <CouterStore />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
